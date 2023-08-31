@@ -142,11 +142,11 @@ struct hostent  *pHostEntry;
                           0,
                          (struct sockaddr *) & SockFrom,
                           & nFromLen);
-		 if (Rc < 0)
-		 {
-   		     LogToMonitor ("erreur %d during socket operation", GetLastError () );
-			 Sleep (100);
-		 }
+         if (Rc < 0)
+         {
+             LogToMonitor ("error %d during socket operation", GetLastError () );
+             Sleep (100);
+         }
          pSntpData = (struct sSntpPkt *) sSntpBuf;
 
          // ignore message if it is not a client request or if it is has been sent by Tftpd32

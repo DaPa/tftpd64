@@ -28,12 +28,12 @@
 #ifdef INTERIM_VERSION
    const char LICENSE_TFTPD32 [] =
             "Tftpd32 and Tftpd64 are\r\n"
-			"copyrighted by Ph. Jounin\r\n"
+            "copyrighted by Ph. Jounin\r\n"
             "This in an Interim Release\r\n"
             "Please do not distribute\r\n"
             "NO WARRANTY\r\n\r\n"
             "Full credits will be given into release version\r\n"
-            "Offical site: http://tftpd32.jounin.net";
+            "Official site: http://tftpd32.jounin.net";
 #elif defined BAE_SYSTEMS_LEN_WHITE
 const char LICENSE_TFTPD32 [] =
 "\r\n\r\n"
@@ -57,8 +57,8 @@ const char LICENSE_TFTPD32 [] =
 "  - MD5 part is from RSA Data Security\r\n"
 "  - Icon designed by Marco\r\n"
 "  - IP checksum computation is from Mike Muss\r\n"
-"  - DHCP lease persistance is from Nick Wagner\r\n" 
-"  - DHCP opts 82, 42 and 120 from Jesus Soto\r\n" 
+"  - DHCP lease persistence is from Nick Wagner\r\n"
+"  - DHCP opts 82, 42 and 120 from Jesus Soto\r\n"
 "  - DHCP header file from The Internet Software\r\n    Consortium\r\n";
 #elif defined SERVICE_EDITION
 #  ifdef _M_X64
